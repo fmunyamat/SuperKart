@@ -22,9 +22,9 @@ Store_Location_City_Type = st.selectbox("Store Location City Type", ["Tier 1", "
 Store_Type = st.selectbox("Store Type", ["Supermarket Type1", "Supermarket Type2", "Supermarket Type3", "Departmental Store", "Food Mart"])
 Product_Id_char = st.selectbox("Product ID Character", ["FD", "DR", "NC"])
 Store_Age_Years = st.number_input("Store Age (Years)", min_value=0, value=16)
-Product_Type_Category = st.selectbox("Product Type Category", ['Frozen Foods' 'Dairy' 'Canned' 'Baking Goods' 'Health and Hygiene'
- 'Snack Foods' 'Meat' 'Household' 'Hard Drinks' 'Fruits and Vegetables'
- 'Breads' 'Soft Drinks' 'Breakfast' 'Others' 'Starchy Foods' 'Seafood'])
+Product_Type_Category = st.selectbox("Product Type Category", ['Frozen Foods', 'Dairy', 'Canned', 'Baking Goods', 'Health and Hygiene',
+ 'Snack Foods', 'Meat', 'Household', 'Hard Drinks', 'Fruits and Vegetables',
+ 'Breads', 'Soft Drinks', 'Breakfast', 'Others', 'Starchy Foods', 'Seafood'])
 
 # Create JSON payload
 product_data = {
